@@ -1,21 +1,18 @@
-
 /* main text color #434455 ; */
 /* dark  #2E2F42; */
 /* brand color #4D5AE5 */
 /* white #FFFFFF; */
 /* light #F4F4FD; */
 /* accent #E7E9FC; */
-/* cornflower #E5E5E5; */
 
 :root {
-  --main-text-color: #434455; 
-  --white: #FFFFFF;
-  --dark: #2E2F42;
-  --light: #F4F4FD;
-  --accent: #E7E9FC;
-  --brand-color: #4D5AE5;
-  --button-hover: #404BBF;
-  --cornflower: #E5E5E5;
+  --main-text-color: #434455;
+  --white: #ffffff;
+  --dark: #2e2f42;
+  --light: #f4f4fd;
+  --accent: #e7e9fc;
+  --brand-color: #4d5ae5;
+  --button-hover: #404bbf;
 }
 
 body {
@@ -28,12 +25,12 @@ body {
 /* ____HEADER____ */
 
 .header {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .header-logo {
   color: var(--dark);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
@@ -47,7 +44,7 @@ body {
 
 .header-logo:hover,
 .header-logo:focus {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 
 .logo-decoration {
@@ -117,25 +114,25 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--button-hover); 
+  background-color: var(--button-hover);
 }
 
 /* ___Section1____ */
 
 .section {
-  background-color: var(--cornflower);
+  background-color: var(--white);
 }
 
 .header-section-first {
   font-weight: 600;
   font-size: 20px;
-  line-height: 0.8;
+  line-height: 1.2;
   color: var(--dark);
 }
 
 .text {
   font-size: 16px;
-  line-height: 0.7;
+  line-height: 1.5;
   color: var(--main-text-color);
 }
 
@@ -170,10 +167,10 @@ body {
 
 .footer-logo {
   color: var(--light);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -192,7 +189,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent);
-} 
+}
 
 /* ___PORTFOLIO___ */
 
@@ -218,5 +215,17 @@ body {
   color: var(--white);
 }
 
-/* ___Section CARDS___ */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
+/* ___Section CARDS___ */
